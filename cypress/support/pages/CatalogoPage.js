@@ -10,6 +10,8 @@ class CatalogoPage {
     verificarProdutoNaLista(nomeProduto) {
         cy.contains('.product-name', nomeProduto).should('exist');
     }
+
+    
 }
 
 export default new CatalogoPage();
